@@ -44,5 +44,6 @@ namespace MeetupProject.Controllers
 
 
         //Justa, widzisz to?
+        //Widzę :D
     }
 }
