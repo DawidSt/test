@@ -41,5 +41,8 @@ namespace MeetupProject.Controllers
         public void Delete(int id)
         {
         }
+
+
+        //Justa, widzisz to?
     }
 }
