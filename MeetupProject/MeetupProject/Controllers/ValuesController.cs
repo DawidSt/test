@@ -40,10 +40,22 @@ namespace MeetupProject.Controllers
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
+            var dodaj = 0;
+            for (int i = 0; i < 10; i++)
+            {
+                dodaj = +i;
+
+            }
+            Console.WriteLine("wynik to: {0}", dodaj);
+            Delegate @delegate;
         }
 
 
         //Justa, widzisz to?
         //Widzę :D
+        //to super to co tu piszemy?
+        //Ala ma kota?
+        //czy widać pętlę?
+
     }
 }
