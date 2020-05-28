@@ -60,5 +60,6 @@ namespace MeetupProject.Controllers
         //Ala ma kota?
         //czy widać pętlę?
         //Widac, a moja ?XD
+        //?
     }
 }
