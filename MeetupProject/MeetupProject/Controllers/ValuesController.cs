@@ -14,7 +14,7 @@ namespace MeetupProject.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new string[] {"value1", "value2"};
         }
 
         // GET api/values/5
@@ -34,16 +34,31 @@ namespace MeetupProject.Controllers
         [HttpPut("{id}")]
         public void Put(int id, [FromBody] string value)
         {
+            for (int i = 0; i <= 5; i++)
+            {
+                Console.WriteLine("Number:  {0}", i);
+            }
         }
 
         // DELETE api/values/5
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
+            var dodaj = 0;
+            for (int i = 0; i < 10; i++)
+            {
+                dodaj = +i;
+            }
+
+            Console.WriteLine("wynik to: {0}", dodaj);
         }
 
 
         //Justa, widzisz to?
         //Widzę :D
+        //to super to co tu piszemy?
+        //Ala ma kota?
+        //czy widać pętlę?
+        //Widac, a moja ?XD
     }
 }
