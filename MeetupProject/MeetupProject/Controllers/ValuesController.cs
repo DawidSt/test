@@ -48,9 +48,16 @@ namespace MeetupProject.Controllers
             for (int i = 0; i < 10; i++)
             {
                 dodaj = +i;
+<<<<<<<<< Temporary merge branch 1
             }
 
             Console.WriteLine("wynik to: {0}", dodaj);
+=========
+
+            }
+            Console.WriteLine("wynik to: {0}", dodaj);
+            Delegate @delegate;
+>>>>>>>>> Temporary merge branch 2
         }
 
 
@@ -59,7 +66,10 @@ namespace MeetupProject.Controllers
         //to super to co tu piszemy?
         //Ala ma kota?
         //czy widać pętlę?
+<<<<<<<<< Temporary merge branch 1
         //Widac, a moja ?XD
-        //?
+=========
+
+>>>>>>>>> Temporary merge branch 2
     }
 }
